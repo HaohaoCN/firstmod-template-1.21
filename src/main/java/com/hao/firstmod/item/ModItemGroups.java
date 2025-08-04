@@ -36,11 +36,12 @@ public class ModItemGroups {
             Identifier.of(FirstMod.MOD_ID, "first_group"),
             ItemGroup.create(null,-1)
                     .displayName(Text.translatable("itemGroup.first_group"))
-                    .icon(() -> new ItemStack(ModItems.FIRST_ITEM))
+                    .icon(() -> new ItemStack(ModItems.BLUE_ITEM))
                     .entries((displayContext, entries) -> {
                             entries.add(ModItems.FIRST_ITEM);
-                            entries.add(Blocks.BRICKS);
-                            entries.add(Items.DIAMOND);
+                            entries.add(ModItems.BLUE_ITEM);
+                            //entries.add(Blocks.BRICKS);
+                            //entries.add(Items.DIAMOND);
 
                         })
                         .build()

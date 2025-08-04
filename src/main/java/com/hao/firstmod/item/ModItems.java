@@ -12,6 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item FIRST_ITEM = registerItems("first_item", new Item(new Item.Settings()));
+
+    public static final Item BLUE_ITEM = registerItems("blue_item", new Item(new Item.Settings()));
+
+
     private static Item registerItems(String id, Item item){
 
         //return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(FirstMod.MOD_ID, id)), item);
@@ -22,6 +26,7 @@ public class ModItems {
         //addItemToItemGroup(IG)
         //使物品添加至物品栏。
         fabricItemGroupEntries.add(FIRST_ITEM);
+        fabricItemGroupEntries.add(BLUE_ITEM);
     }
 
     public static void registerModItems(){
