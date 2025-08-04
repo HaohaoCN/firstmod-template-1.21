@@ -1,5 +1,8 @@
 {
   "item.firstmod.first_item": "First Item",
   "item.firstmod.blue_item": "Blue Item",
+  "block.firstmod.first_block": "First Block",
+  "block.firstmod.second_block": "Second Block",
+  "block.firstmod.blue_block": "Blue Block",
   "itemGroup.first_group": "First Group"
 }

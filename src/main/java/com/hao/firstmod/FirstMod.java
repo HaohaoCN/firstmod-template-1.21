@@ -1,5 +1,6 @@
 package com.hao.firstmod;
 
+import com.hao.firstmod.block.ModBlocks;
 import com.hao.firstmod.item.ModItemGroups;
 import com.hao.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class FirstMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
 
 		LOGGER.info("欢迎来到First Mod！");

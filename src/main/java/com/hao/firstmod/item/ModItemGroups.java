@@ -1,10 +1,11 @@
 package com.hao.firstmod.item;
 
 import com.hao.firstmod.FirstMod;
-import net.minecraft.block.Blocks;
+import com.hao.firstmod.block.ModBlocks;
+//import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+//import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 //import net.minecraft.registry.RegistryKey;
@@ -42,11 +43,14 @@ public class ModItemGroups {
                             entries.add(ModItems.BLUE_ITEM);
                             //entries.add(Blocks.BRICKS);
                             //entries.add(Items.DIAMOND);
+                            entries.add(ModBlocks.FIRST_BLOCK);
+                            entries.add(ModBlocks.SECOND_BLOCK);
+                            entries.add(ModBlocks.BLUE_BLOCK);
 
                         })
                         .build()
         );
     public static void registerModItemGroups(){
-        FirstMod.LOGGER.info("正在注册物品组，使物品进入物品栏……");
+        FirstMod.LOGGER.info("正在注册物品组……");
     }
 }
