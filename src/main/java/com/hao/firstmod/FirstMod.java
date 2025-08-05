@@ -21,11 +21,10 @@ public class FirstMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		LOGGER.info("欢迎来到First Mod！");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
-
-		LOGGER.info("欢迎来到First Mod！");
+		LOGGER.info("加载完成！");
 	}
 }

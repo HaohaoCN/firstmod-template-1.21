@@ -11,10 +11,10 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-
-    public static final Block FIRST_BLOCK = register("first_block", new Block(AbstractBlock.Settings.create().strength(3.0f,3.0f)));
-    public static final Block SECOND_BLOCK = register("second_block", new Block(AbstractBlock.Settings.create().strength(3.0f,3.0f)));
-    public static final Block BLUE_BLOCK = register("blue_block", new Block(AbstractBlock.Settings.create().strength(4.5f,6.0f)));
+//用手挖掘不用写.requiresTool(),写了就需要写tags。tags/block下，只添加进mineable里面，表示最低用木质工具。也可以添加进needs_xxx_tool里面表示最低用xxx工具。
+    public static final Block FIRST_BLOCK = register("first_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block SECOND_BLOCK = register("second_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block BLUE_BLOCK = register("blue_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,6.0f)));
     public static void registerBlockItems(String id, Block block) {
 
         Item item = Registry.register(Registries.ITEM, Identifier.of(FirstMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));
@@ -29,7 +29,7 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, Identifier.of(FirstMod.MOD_ID, id), block);
     }
     public static void registerModBlocks() {
-        FirstMod.LOGGER.info("正在注册方块...");
+        FirstMod.LOGGER.info("正在注册方块以及它所对应的物品...");
     }
 
 }
