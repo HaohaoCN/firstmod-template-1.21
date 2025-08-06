@@ -14,6 +14,7 @@ public class ModBlocks {
 //用手挖掘不用写.requiresTool(),写了就需要写tags。tags/block下，只添加进mineable里面，表示最低用木质工具。也可以添加进needs_xxx_tool里面表示最低用xxx工具。
     public static final Block FIRST_BLOCK = register("first_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block SECOND_BLOCK = register("second_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block BLUE_ORE = register("blue_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block BLUE_BLOCK = register("blue_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,6.0f)));
     public static void registerBlockItems(String id, Block block) {
 

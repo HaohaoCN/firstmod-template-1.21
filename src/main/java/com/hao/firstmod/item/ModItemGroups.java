@@ -41,11 +41,13 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                             entries.add(ModItems.FIRST_ITEM);
                             entries.add(ModItems.BLUE_ITEM);
+                            entries.add(ModItems.RAW_BLUE_ITEM);
                             //entries.add(Blocks.BRICKS);
                             //entries.add(Items.DIAMOND);
                             entries.add(ModBlocks.FIRST_BLOCK);
                             entries.add(ModBlocks.SECOND_BLOCK);
                             entries.add(ModBlocks.BLUE_BLOCK);
+                            entries.add(ModBlocks.BLUE_ORE);
 
                         })
                         .build()

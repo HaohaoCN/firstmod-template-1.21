@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "firstmod:raw_blue_item"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:blue_ore"
+  }
+}
