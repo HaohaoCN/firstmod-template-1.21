@@ -1,0 +1,16 @@
+// 1.21	2025-08-07T14:37:40.9186209	FirstMod/Model Definitions
+47472d4cf520f8a606c2f983f546839fd0b74b79 assets\firstmod\blockstates\first_block.json
+045ad77d590ee52a410e5618ad3baf2944e0a3a3 assets\firstmod\models\block\blue_block.json
+2d5a9b7609e7fef94e8f935cc0cec1ce45287f79 assets\firstmod\blockstates\blue_block.json
+aefc514f98e565f01a09b2d3ebc58937db21cbfd assets\firstmod\models\item\first_block.json
+19794d291ec9f03c802cf0a3abc4863685a9c3d4 assets\firstmod\models\block\first_block.json
+3f051ccbfd5ea343cd9d5836b1a53ed8df33c2a5 assets\firstmod\models\block\second_block.json
+310e0e9c3175d93e7d2c557f3c37cff122a6e917 assets\firstmod\models\item\blue_ore.json
+03a63588b1e7f1f4c24e1941b9503aeba1847892 assets\firstmod\blockstates\blue_ore.json
+224dbea36c9bbb7957af6e96f46923bbec37d362 assets\firstmod\models\item\raw_blue_item.json
+d0933d344954e62d889c77afe4191a3707169e8f assets\firstmod\models\item\blue_item.json
+89bfe9c76a839fa7f5f7a45b73a32a7cacbe94da assets\firstmod\models\item\first_item.json
+7f5fd93c1695204b8db7b0527568d7178dbc001c assets\firstmod\models\item\second_block.json
+51b15ae91ed45955ee9995e59cb70c5aded6881d assets\firstmod\blockstates\second_block.json
+350964b119f03378c68b04b0891f049b70453048 assets\firstmod\models\block\blue_ore.json
+b8f6c6bcf6aa2215444751e5a56e7bc166c22b9c assets\firstmod\models\item\blue_block.json

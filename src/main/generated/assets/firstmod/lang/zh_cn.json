@@ -1,0 +1,10 @@
+{
+  "block.firstmod.blue_block": "蓝色方块",
+  "block.firstmod.blue_ore": "蓝色矿",
+  "block.firstmod.first_block": "第一个方块",
+  "block.firstmod.second_block": "第二个方块",
+  "item.firstmod.blue_item": "蓝色物品",
+  "item.firstmod.first_item": "第一个物品",
+  "item.firstmod.raw_blue_item": "粗蓝色物品",
+  "itemGroup.first_group": "第一个物品组"
+}

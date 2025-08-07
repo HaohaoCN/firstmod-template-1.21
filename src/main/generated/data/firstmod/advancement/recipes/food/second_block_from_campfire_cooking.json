@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_first_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "firstmod:first_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:second_block_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_first_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:second_block_from_campfire_cooking"
+    ]
+  }
+}

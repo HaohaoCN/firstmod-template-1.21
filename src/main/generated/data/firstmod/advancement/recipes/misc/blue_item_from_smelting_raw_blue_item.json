@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_blue_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "firstmod:raw_blue_item"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blue_item_from_smelting_raw_blue_item"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_blue_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blue_item_from_smelting_raw_blue_item"
+    ]
+  }
+}
