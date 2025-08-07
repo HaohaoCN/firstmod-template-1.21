@@ -42,13 +42,14 @@ public class ModItemGroups {
                             entries.add(ModItems.FIRST_ITEM);
                             entries.add(ModItems.BLUE_ITEM);
                             entries.add(ModItems.RAW_BLUE_ITEM);
+                            entries.add(ModItems.CHEESE);
+                            entries.add(ModItems.STRAWBERRY);
                             //entries.add(Blocks.BRICKS);
                             //entries.add(Items.DIAMOND);
                             entries.add(ModBlocks.FIRST_BLOCK);
                             entries.add(ModBlocks.SECOND_BLOCK);
                             entries.add(ModBlocks.BLUE_BLOCK);
                             entries.add(ModBlocks.BLUE_ORE);
-
                         })
                         .build()
         );

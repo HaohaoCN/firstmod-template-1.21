@@ -18,6 +18,8 @@ public class ModZHCNLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FIRST_ITEM,"第一个物品");
         translationBuilder.add(ModItems.BLUE_ITEM,"蓝色物品");
         translationBuilder.add(ModItems.RAW_BLUE_ITEM,"粗蓝色物品");
+        translationBuilder.add(ModItems.CHEESE, "芝士");
+        translationBuilder.add(ModItems.STRAWBERRY, "草莓");
 
         translationBuilder.add(ModBlocks.FIRST_BLOCK,"第一个方块");
         translationBuilder.add(ModBlocks.SECOND_BLOCK,"第二个方块");
