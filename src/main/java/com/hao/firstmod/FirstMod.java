@@ -3,6 +3,7 @@ package com.hao.firstmod;
 import com.hao.firstmod.block.ModBlocks;
 import com.hao.firstmod.item.ModItemGroups;
 import com.hao.firstmod.item.ModItems;
+import com.hao.firstmod.mixin.GrassColorsMixin;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -25,6 +26,18 @@ public class FirstMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
-		LOGGER.info("加载完成！");
+
+        //体验Mixin中Accessor(访问器)的用法
+//        int[] colorMap = GrassColorsMixin.getColorMap();
+//        LOGGER.info("草颜色映射表长度: {}", colorMap.length);//65536
+//
+//        int[] newColorMap = new int[128];
+//        GrassColorsMixin.setColorMap(newColorMap);
+//        LOGGER.info("草颜色映射表长度: {}", GrassColorsMixin.getColorMap().length);//128
+        //Mixin中Accessor的用法结束
+
+
+
+        LOGGER.info("加载完成！");
 	}
 }
